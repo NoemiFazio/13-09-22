@@ -5,8 +5,8 @@ const CategoryListItem = (props) => {
   const { category } = props;
 
   return (
-    <li className={styles["CategoryListItem"]}>
-      <div className={styles["thumbnail-wrapper"]}>
+    <li className={styles.CategoryListItem}>
+      <div className={styles.wrapper}>
         <img
           className={styles.thumbnail}
           src={category.strCategoryThumb}

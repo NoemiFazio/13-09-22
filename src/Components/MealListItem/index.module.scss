@@ -1,13 +1,14 @@
-.CategoryListItem {
+.MealListItem {
   position: relative;
   display: flex;
   align-items: center;
   flex-flow: row nowrap;
   gap: 1rem;
   padding: 0.5rem;
+  transition: 0.65s;
 
   &:hover {
-    background: #eee;
+    background: rgba(216, 255, 213, 0.352);
   }
 
   .thumbnail {
@@ -15,6 +16,7 @@
     width: 100%;
     object-fit: contain;
     object-position: center;
+    width: 200px;
 
     &-wrapper {
       flex: 0 0 3rem;
@@ -28,6 +30,7 @@
   .title {
     line-height: 1;
     margin: 0 0 0.5rem;
+    color: #23216e;
   }
 
   .description {

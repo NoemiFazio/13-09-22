@@ -1,13 +1,14 @@
 .CategoryListItem {
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
   // flex-flow: row nowrap;
   gap: 1rem;
   padding: 0.5rem;
 
   &:hover {
-    background: #eee;
+    background: rgba(216, 255, 213, 0.352);
   }
 
   .thumbnail {
@@ -15,10 +16,10 @@
     width: 100%;
     object-fit: contain;
     object-position: center;
-
-    &-wrapper {
-      flex: 0 0 3rem;
-    }
+    width: 200px;
+  }
+  .wrapper {
+    flex: 0 0 3rem;
   }
 
   .content {
@@ -28,6 +29,7 @@
   .title {
     line-height: 1;
     margin: 0 0 0.5rem;
+    color: #23216e;
   }
 
   .description {
